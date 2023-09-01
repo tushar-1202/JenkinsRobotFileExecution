@@ -4,7 +4,7 @@ import subprocess
 from robot.libraries.BuiltIn import BuiltIn
 #from robot.libraries import BuiltIn
 from Device import Device
-import pandas as pd
+#import pandas as pd
 from datetime import datetime
 from robot.utils import DotDict
 
