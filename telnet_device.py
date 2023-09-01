@@ -3,7 +3,7 @@ import telnetlib
 import time
 
 HOST = "10.10.0.100"
-PORT = 2007
+PORT = "2007"
 print("Inside")
 tn = telnetlib.Telnet(HOST, PORT)
 command = "cat /version.txt"
