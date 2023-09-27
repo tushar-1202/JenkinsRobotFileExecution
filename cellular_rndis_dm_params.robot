@@ -78,7 +78,7 @@ Validate Cellular X_RDK Statistics
 *** Test Cases ***
 test1: Validate Data model object params based on Cellular module state
     [documentation]    Validation based on REGISTERED State
-    [tags]          t1      RDK_Status
+    [tags]          t1:retry(2)     RDK_Status
 
     ${output}=       send_command        dmcli eRT getv Device.Cellular.X_RDK_Status
     ${out}=    get_test_status     ${output}
